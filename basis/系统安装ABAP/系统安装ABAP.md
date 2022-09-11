@@ -2,20 +2,32 @@
 1Tb存储
 8Gb 内存
 24000Mb 虚拟内存
-.NET Framework 3.5 Service Pack 1
+设置主机名 ERPEHP8，DNS 后缀: LAN.LAN
+添加角色和功能，选择 .NET Framework 3.5
 
-设置主机名，DNS后缀: lan.lan
+![os-dotnet35](./img/os-dotnet35.png ".NET Framework 3.5")
+
+设置 Non-Unicode language: English, US
+
+![os-language](./img/os-language.png "Non-Unicode language")
+
+设置 Java Runtime 
+[SapMachine](https://sap.github.io/SapMachine/)
+
 # DB : MS SQL SERVER 2019/X86_64
 Collation: SQL_Latin1_General_CP850_BIN2
 
-Network configuration, TCP/IP Enabled, 127.0.0.1
+安装后，设置 Network configuration, TCP/IP Enabled, 127.0.0.1
+
+![os-sql-network](./img/os-sql-network.png "SQL SERVER Network configuration")
+
 # 安装 EHP8 FOR SAP ERP 6.0
 
 ## 登录 [Maintenance Planner](https://support.sap.com/en/alm/solution-manager/processes-72/maintenance-planner.html)
 
 登录后，选择 **Plan a New System** 磁贴，进入概览页面后，选择 **Plan** ，进入目标系统选择画面。
 
-选择目标系统的类型，有 ABAP / JAVA 可供选择。选择不同的系统类型，右侧的系统选择，也会随着变化。安装 SAP ERP system，需要选择 ABAP，同时指定系统 SID。
+选择目标系统的类型，有 ABAP / JAVA 可供选择。选择不同的系统类型，右侧的系统选择，也会随着变化。安装 SAP ERP system，需要选择 ABAP，同时指定系统 SAPSID。
 
 ![maintenance-planner-1](./img/maintenance-planner-1.jpg "选择目标系统")
 
@@ -67,7 +79,8 @@ SOFTWARE UPDATE MANAGER 用于升级 SAP 软件。
 
 解压文件 51053970.ZIP，参考 [Download Manager Help](https://support.sap.com/content/dam/support/en_us/library/ssp/my-support/help-for-sap-support-applications/online_help-download_manager.html)
 
-运行 java -classpath DLManager.jar dlmanager.Application
+运行程序，登录后，批量依次下载 
+> java -classpath DLManager.jar dlmanager.Application
 
 ## 安装 SAP
 解压 SOFTWARE PROVISIONING MANAGER 软件，到指定文件夹
@@ -79,14 +92,55 @@ SOFTWARE UPDATE MANAGER 用于升级 SAP 软件。
 或者使用参数安装，指定堆栈文件
 > sapinst.exe SAPINST_STACK_XML = <Absolute_Path_To_Stack_XML_File>swpm\Upgrades\MP*.XML
 
+安装程序启动浏览器，输入 OS 用户名、密码
+
+![swpm-1](./img/swpm-1.png "启动安装程序访问")
+
+选择升级目标系统
+
+![swpm-2](./img/swpm-2.png "选择目标系统")
+
+选择参数模式 Typical
+
+![swpm-3](./img/swpm-3.png "选择参数模式")
+
+需要确认重启，添加执行用户的账户管理员权限
+
+![swpm-4](./img/swpm-4.png "确认重启")
+
+OS 重启后，会自动执行安装程序，需要输入 OS 用户名、密码。
+输入 SAPSID
+
+![swpm-5](./img/swpm-5.png "输入 SAPSID")
+
+设置主密码，建议 10 位字符，字母大小写、数字
+
+![swpm-6](./img/swpm-6.png "输入密码")
+
+选择 KERNEL 相关文件路径
+
+![swpm-7](./img/swpm-7.png "选择 KERNEL 文件")
+
+选择 HOST AGENT 文件路径
+
+![swpm-8](./img/swpm-8.png "选择HOST AGENT 文件")
+
+选择 SAP ERP 6.0 EHP8 安装包
+
+![swpm-9](./img/swpm-9.png "选择 SAP ERP 6.0 EHP8 安装包")
+
+后续默认参数执行安装
+
+在 client 000 和 001中，可以使用在安装开始时定义的主密码，登录 DDIC 和 SAP*。
+
 ## 升级到指定 SPS 版本
 
-使用 \<SID>adm 用户，登录OS, 注册SUM
-> cd C:\usr\sap\ \<SID> \SUM
+使用 \<SAPSID>adm 用户，登录OS, 注册SUM
+> cd C:\usr\sap\ \<SAPSID> \SUM
 >
 > SUMSTART.BAT confighostagent
 
-根据提示的 web 网址，登录, 执行更新
+根据提示的 web 网址，登录, 执行更新程序
 
 # 安装 IDES EHP8 FOR SAP ERP 6.0
 ## 登录 [Software Center](https://launchpad.support.sap.com/#/softwarecenter)
@@ -106,3 +160,6 @@ SOFTWARE UPDATE MANAGER 用于升级 SAP 软件。
 
 直接执行安装程序
 > sapinst.exe
+
+在 client 000 和 001中，可以使用在安装开始时定义的主密码，登录 DDIC 和 SAP*。
+在 client 8xx 中，使用用户名/密码: DDIC/19920706, SAP*/06071992
