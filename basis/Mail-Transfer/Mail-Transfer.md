@@ -76,3 +76,7 @@ Host Data 选择虚拟服务器的编号, Logon Data 维护通过虚拟服务器
 > BTC_OPTIONS_SET
 
 同时使用 SCOT 设置出站消息的大小
+
+## 程序发送邮件
+使用 SE38 参考示例程序，也是发送到队列
+> BCS_EXAMPLE_7
