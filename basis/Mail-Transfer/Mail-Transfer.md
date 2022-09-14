@@ -1,8 +1,8 @@
 # SMTP 配置
-参考 [SAP Help Portal](help.sap.com)
+参考 [SAP Help Portal](help.sap.com) 和 [455140](https://launchpad.support.sap.com/#/notes/455140)
 > SAPconnect (BC-SRV-COM)
 ## 定义服务名称
-使用 SA14 定义服务名称
+使用 SA14 定义服务名称，只发送 Mail 则不需要配置
 > SMS Service
 
 ![service-name](./img/service-name.jpg "定义服务名称")
@@ -80,3 +80,8 @@ Host Data 选择虚拟服务器的编号, Logon Data 维护通过虚拟服务器
 ## 程序发送邮件
 使用 SE38 参考示例程序，也是发送到队列
 > BCS_EXAMPLE_7
+
+## 接收邮件
+需要在邮件服务器设置路由规则，将特定的邮件域转发到 SAP 的 is/SMTP/virt_host
+
+没有测试过
