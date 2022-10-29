@@ -265,6 +265,8 @@ AS Java 用户的邮件地址 和 Windows 域名帐户一致时
 SM30 维护 VUSREXTID 视图，在 DN 工作区，新增用户和证书名称的分配关系，用于 Web Gui 访问
 > DN	证书识别名称 (X.500)
 
+![Secure-Login-9](./img/Secure-Login-9.png "分配外部标识")
+
 ## 计算机 Single Sign-On
 ### AS ABAP
 打开安全登录客户端，登录到 Secure-Login-Server 后，生成 SSL 证书
@@ -273,7 +275,7 @@ SM30 维护 VUSREXTID 视图，在 DN 工作区，新增用户和证书名称的
 
 登录 Web Gui 时，会弹出证书选择，选择后，自动登录
 
-![Secure-Login-9](./img/Secure-Login-9.png "证书选择")
+![Secure-Login-10](./img/Secure-Login-10.png "证书选择")
 
 ### AS JAVA
 没有测试通过
