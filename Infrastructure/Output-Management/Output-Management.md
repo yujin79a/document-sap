@@ -65,7 +65,7 @@ SMARTFORMS - Smart Forms
 SFP - Interactive Forms
 
 ## 电子邮件
-[Mail 发送配置](/basis/Mail-Transfer/Mail-Transfer.md)
+[Mail 发送配置](/Infrastructure/Mail-Transfer/Mail-Transfer.md)
 
 ## EDI
 > WEDI - IDoc 和 EDI 基础

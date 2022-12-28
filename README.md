@@ -1,20 +1,26 @@
 # 基础设施
 [As Abap 系统安装](./Infrastructure/Installation-Abap/Installation-Abap.md)
 
+[Data Services 系统安装](./Infrastructure/Installation-Data-Services/Installation-Data-Services.md)
+
 [Oss 网络配置](./Infrastructure/Oss-Config/Oss-Config.md)
 
 [单点登录配置](./Infrastructure/Single_Sign-On/Single_Sign-On.md)
 
 [输出管理](./Infrastructure/Output-Management/Output-Management.md)
-## 流程管理和集成
+[Mail](./Infrastructure/Mail-Transfer/Mail-Transfer.md)
+<!--
+#流程管理和集成
 [业务事件处理](./Infrastructure/Process-Management-Integration/Business-Event-Handling/Business-Event-Handling.md "1NN")
 [财务预测分析模型训练](./Infrastructure/Process-Management-Integration/Predictive-Analytics-Model-Training/Predictive-Analytics-Model-Training.md "30K")
 [职责管理](./Infrastructure/Process-Management-Integration/Responsibility-Management/Responsibility-Management.md "1NJ")
 [情况处理](./Infrastructure/Process-Management-Integration/Situation-Handling/Situation-Handling.md "31N")
+-->
 # 数据库和数据管理
 [迁移主控室](./Database-and-Data-Management/Migration-Cockpit/Migration-Cockpit.md)
 
-[SAP 数据服务 4.2](./Database-and-Data-Management/SAP-Data-Services/SAP-Data-Services.md)
+[SAP 数据服务 4.3](./Database-and-Data-Management/SAP-Data-Services/SAP-Data-Services.md)
+<!--
 ## 主数据目录
 [客户](./Database-and-Data-Management/Master-Data-Catalog/Customer/Customer.md "BND")
 [客户层次结构](./Database-and-Data-Management/Master-Data-Catalog/Customer-Hierarchy/Customer-Hierarchy.md "6N3")
@@ -79,6 +85,8 @@
 [功能位置](./Database-and-Data-Management/Master-Data-Catalog/Functional-Location/Functional-Location.md "5LM")
 [工厂替换和排除](./Database-and-Data-Management/Master-Data-Catalog/Location-Substitution-and-Exclusion/Location-Substitution-and-Exclusion.md "5NG")
 [对象和值确定](./Database-and-Data-Management/Master-Data-Catalog/Object-and-Value-Determination/Object-and-Value-Determination.md "5NH")
+-->
+<!--
 # 资产管理
 ## 维护管理
 [纠正性维护](./Asset/Maintenance/Corrective/Corrective.md "BH1")
@@ -86,6 +94,8 @@
 [预防性维护](./Asset/Maintenance/Preventive/Preventive.md "BJ2")
 [主动维护](./Asset/Maintenance/Proactive/Proactive.md "4HI")
 [反应性维护](./Asset/Maintenance/Reactive/Reactive.md "4HH")
+-->
+<!--
 # 财务
 ## 会计和财务结算
 [会计和财务结算](./Finance/Accounting-and-Financial-Close/Accounting-and-Financial-Close/Accounting-and-Financial-Close.md "J58")
@@ -192,9 +202,13 @@
 [流动性规划](./Finance/Treasury/Liquidity-Planning/Liquidity-Planning.md "3L5")
 [SAPFioriAnalyticalAppsforTreasuryandRiskManagement](./Finance/Treasury/SAP-Fiori-Analytical-Apps-for-Treasury-and-Risk-Management/SAP-Fiori-Analytical-Apps-for-Treasury-and-Risk-Management.md "1MN")
 [财资工作站现金整合](./Finance/Treasury/Treasury-Workstation-Cash-Integration/Treasury-Workstation-Cash-Integration.md "34P")
+-->
+<!--
 # 人力资源
 ## 核心人力资源和时间记录
 [员工集成](./Human-Resources/Core-HR/Employee-Integration/Employee-Integration.md "1FD")
+-->
+<!--
 # 制造业
 ## 制造运营
 [生产单位分析-计划/实际生产成本](./Manufacturing/Manufacturing-Operations/Analytics-for-Production-Unit-Plan/Actual-Production-Cost/Analytics-for-Production-Unit-Plan/Actual-Production-Cost.md "2QW")
@@ -254,6 +268,8 @@
 [库存处理质量管理](./Manufacturing/Quality/Quality-Management-in-Stock-Handling/Quality-Management-in-Stock-Handling.md "1MR")
 [内部问题的质量管理](./Manufacturing/Quality/Quality-Management-of-Internal-Problems/Quality-Management-of-Internal-Problems.md "2QP")
 [SAPFiori质量管理分析应用程序](./Manufacturing/Quality/SAP-Fiori-Analytical-Apps-for-Quality-Management/SAP-Fiori-Analytical-Apps-for-Quality-Management.md "2V0")
+-->
+<!--
 # 寻源和采购
 ## 供应商管理
 [采购活动管理](./Sourcing-and-Procurement/Supplier/Activity-Management-in-Procurement/Activity-Management-in-Procurement.md "19C")
@@ -309,6 +325,8 @@
 ## 采购分析
 [分析-采购订单可见性和采购支出](./Sourcing-and-Procurement/Procurement-Analytics/Analytics-Purchase-Order-Visibility-and-Procurement-Spend/Analytics-Purchase-Order-Visibility-and-Procurement-Spend.md "2QU")
 [采购实时报告和监控](./Sourcing-and-Procurement/Procurement-Analytics/Real-Time-Reporting-and-Monitoring-for-Procurement/Real-Time-Reporting-and-Monitoring-for-Procurement.md "1JI")
+-->
+<!--
 # 研发/工程
 ## 产品合规性
 [评估商品的危险品](./Research-and-Development/Product-Compliance/Assess-Dangerous-Goods-for-a-Product/Assess-Dangerous-Goods-for-a-Product.md "3FC")
@@ -344,6 +362,8 @@
 [使用变型配置设置可配置模型](./Research-and-Development/Product-Lifecycle/Set-Up-Configurable-Model-using-Variant-Configuration/Set-Up-Configurable-Model-using-Variant-Configuration.md "22T")
 [软件兼容性管理](./Research-and-Development/Product-Lifecycle/Software-Compatibility-Management/Software-Compatibility-Management.md "2G5")
 [配方规范管理](./Research-and-Development/Product-Lifecycle/Specification-Management-for-Recipes/Specification-Management-for-Recipes.md "1QA")
+-->
+<!--
 # 销售
 ## 销售业绩管理
 [销售佣金-外部销售代表](./Sales/Sales-Performance/Sales-Commissions-External-Sales-Representative/Sales-Commissions-External-Sales-Representative.md "2TT")
@@ -392,6 +412,8 @@
 [销售返利处理](./Sales/Order-and-Contract/Sales-Rebate-Processing/Sales-Rebate-Processing.md "1B6")
 [使用订单特定采购](./Sales/Order-and-Contract/Sales-of-Non-Stock-Item-with-Order-Specific-Procurement/Sales-of-Non-Stock-Item-with-Order-Specific-Procurement.md "BDN")
 [现货卖出](./Sales/Order-and-Contract/Sell-from-Stock/Sell-from-Stock.md "BD9")
+-->
+<!--
 # 服务
 ## 服务主数据和协议管理
 [服务监控和分析](./Service/Service-Agreement/Service-Monitoring-and-Analytics/Service-Monitoring-and-Analytics.md "43B")
@@ -402,6 +424,8 @@
 [客户退货，从客户直接运送到供应商](./Service/Operations-and-Processes/Customer-Returns-with-Direct-Shipment-from-Customer-to-Supplier/Customer-Returns-with-Direct-Shipment-from-Customer-to-Supplier.md "1Z3")
 [精益客户退货](./Service/Operations-and-Processes/Lean-Customer-Returns/Lean-Customer-Returns.md "BDD")
 [可回收物处理](./Service/Operations-and-Processes/Returnables-Processing/Returnables-Processing.md "BDW")
+-->
+<!--
 # 供应链
 ## 订单承诺
 [可承诺处理](./Supply-Chain/Order-Promising/Available-to-Promise-Processing/Available-to-Promise-Processing.md "6LJ")
@@ -440,4 +464,7 @@
 [向客户提供高级出库处理](./Supply-Chain/Advanced-Warehousing/Advanced-Warehouse-Outbound-Processing-to-Customer/Advanced-Warehouse-Outbound-Processing-to-Customer.md "1VD")
 ## 物料标识
 [处理单元管理](./Supply-Chain/Logistics-Material-Identification/Handling-Unit-Management/Handling-Unit-Management.md "4MM")
-# 本地
+-->
+<!--
+# 本地化
+-->
