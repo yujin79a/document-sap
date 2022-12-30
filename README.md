@@ -9,20 +9,24 @@
 
 [输出管理](./Infrastructure/Output-Management/Output-Management.md)
 [Mail](./Infrastructure/Mail-Transfer/Mail-Transfer.md)
-<!--
-#流程管理和集成
+
+# 流程管理和集成
 [业务事件处理](./Infrastructure/Process-Management-Integration/Business-Event-Handling/Business-Event-Handling.md "1NN")
+
 [财务预测分析模型训练](./Infrastructure/Process-Management-Integration/Predictive-Analytics-Model-Training/Predictive-Analytics-Model-Training.md "30K")
+
 [职责管理](./Infrastructure/Process-Management-Integration/Responsibility-Management/Responsibility-Management.md "1NJ")
+
 [情况处理](./Infrastructure/Process-Management-Integration/Situation-Handling/Situation-Handling.md "31N")
--->
+
 # 数据库和数据管理
 [迁移主控室](./Database-and-Data-Management/Migration-Cockpit/Migration-Cockpit.md)
 
 [SAP 数据服务 4.3](./Database-and-Data-Management/SAP-Data-Services/SAP-Data-Services.md)
-<!--
+
 ## 主数据目录
 [客户](./Database-and-Data-Management/Master-Data-Catalog/Customer/Customer.md "BND")
+<!--
 [客户层次结构](./Database-and-Data-Management/Master-Data-Catalog/Customer-Hierarchy/Customer-Hierarchy.md "6N3")
 [供应商](./Database-and-Data-Management/Master-Data-Catalog/Supplier/Supplier.md "BNE")
 [业务合作伙伴 资金和风险管理](./Database-and-Data-Management/Master-Data-Catalog/BP-for-Treasury-and-Risk-Management/BP-for-Treasury-and-Risk-Management.md "22G")
