@@ -26,8 +26,8 @@
 
 ## 主数据目录
 [客户](./Database-and-Data-Management/Master-Data-Catalog/Customer/Customer.md "BND")
-<!--
 [客户层次结构](./Database-and-Data-Management/Master-Data-Catalog/Customer-Hierarchy/Customer-Hierarchy.md "6N3")
+<!--
 [供应商](./Database-and-Data-Management/Master-Data-Catalog/Supplier/Supplier.md "BNE")
 [业务合作伙伴 资金和风险管理](./Database-and-Data-Management/Master-Data-Catalog/BP-for-Treasury-and-Risk-Management/BP-for-Treasury-and-Risk-Management.md "22G")
 [业务伙伴 服务](./Database-and-Data-Management/Master-Data-Catalog/BP-Service/BP-Service.md "47X")
