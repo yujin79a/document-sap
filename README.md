@@ -30,8 +30,8 @@
 [供应商](./Database-and-Data-Management/Master-Data-Catalog/Supplier/Supplier.md "BNE")
 [业务伙伴 资金和风险管理](./Database-and-Data-Management/Master-Data-Catalog/BP-for-Treasury-and-Risk-Management/BP-for-Treasury-and-Risk-Management.md "22G")
 [业务伙伴 服务](./Database-and-Data-Management/Master-Data-Catalog/BP-Service/BP-Service.md "47X")
-<!--[员工 服务](./Database-and-Data-Management/Master-Data-Catalog/Employee-Service/Employee-Service.md "47Y")
-### 产品
+[员工 服务](./Database-and-Data-Management/Master-Data-Catalog/Employee-Service/Employee-Service.md "47Y")
+<!--### 产品
 [产品 交易商品](./Database-and-Data-Management/Master-Data-Catalog/Product-Trading/Product-Trading.md "BNF")
 [产品 原材料](./Database-and-Data-Management/Master-Data-Catalog/Product-Raw/Product-Raw.md "BNR")
 [产品 半成品](./Database-and-Data-Management/Master-Data-Catalog/Product-Semi-Finished/Product-Semi-Finished.md "BNS")
