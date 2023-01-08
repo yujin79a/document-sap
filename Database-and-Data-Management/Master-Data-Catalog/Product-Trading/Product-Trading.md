@@ -43,9 +43,9 @@
 如果需要维护国际贸易的控制代码，选择国际贸易：出口页签
 
 ### 采购数据
-创建物料，选择贸易货物，选择视图 销售数据
+创建物料，选择贸易货物，选择视图 采购
 
-![Create-Material-9](./img/Create-Material-9.png "销售数据视图")
+![Create-Material-9](./img/Create-Material-9.png "采购视图")
 
 选择组织级别，输入工厂
 
