@@ -25,15 +25,16 @@
 [SAP 数据服务 4.3](./Database-and-Data-Management/SAP-Data-Services/SAP-Data-Services.md)
 
 ## 主数据目录
+### 合作伙伴
 [客户](./Database-and-Data-Management/Master-Data-Catalog/Customer/Customer.md "BND")
 [客户层次结构](./Database-and-Data-Management/Master-Data-Catalog/Customer-Hierarchy/Customer-Hierarchy.md "6N3")
 [供应商](./Database-and-Data-Management/Master-Data-Catalog/Supplier/Supplier.md "BNE")
 [业务伙伴 资金和风险管理](./Database-and-Data-Management/Master-Data-Catalog/BP-for-Treasury-and-Risk-Management/BP-for-Treasury-and-Risk-Management.md "22G")
 [业务伙伴 服务](./Database-and-Data-Management/Master-Data-Catalog/BP-Service/BP-Service.md "47X")
 [员工 服务](./Database-and-Data-Management/Master-Data-Catalog/Employee-Service/Employee-Service.md "47Y")
-<!--### 产品
-[产品 交易商品](./Database-and-Data-Management/Master-Data-Catalog/Product-Trading/Product-Trading.md "BNF")
-[产品 原材料](./Database-and-Data-Management/Master-Data-Catalog/Product-Raw/Product-Raw.md "BNR")
+### 产品
+[产品 贸易商品](./Database-and-Data-Management/Master-Data-Catalog/Product-Trading/Product-Trading.md "BNF")
+<!--[产品 原材料](./Database-and-Data-Management/Master-Data-Catalog/Product-Raw/Product-Raw.md "BNR")
 [产品 半成品](./Database-and-Data-Management/Master-Data-Catalog/Product-Semi-Finished/Product-Semi-Finished.md "BNS")
 [产品 成品](./Database-and-Data-Management/Master-Data-Catalog/Product-Finished/Product-Finished.md "BNT")
 [产品 备件](./Database-and-Data-Management/Master-Data-Catalog/Product-Spare-Parts/Product-Spare-Parts.md "2J7")
