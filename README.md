@@ -34,8 +34,8 @@
 [员工 服务](./Database-and-Data-Management/Master-Data-Catalog/Employee-Service/Employee-Service.md "47Y")
 ### 产品
 [产品 贸易商品](./Database-and-Data-Management/Master-Data-Catalog/Product-Trading/Product-Trading.md "BNF")
-<!--[产品 原材料](./Database-and-Data-Management/Master-Data-Catalog/Product-Raw/Product-Raw.md "BNR")
-[产品 半成品](./Database-and-Data-Management/Master-Data-Catalog/Product-Semi-Finished/Product-Semi-Finished.md "BNS")
+[产品 原材料](./Database-and-Data-Management/Master-Data-Catalog/Product-Raw/Product-Raw.md "BNR")
+<!--[产品 半成品](./Database-and-Data-Management/Master-Data-Catalog/Product-Semi-Finished/Product-Semi-Finished.md "BNS")
 [产品 成品](./Database-and-Data-Management/Master-Data-Catalog/Product-Finished/Product-Finished.md "BNT")
 [产品 备件](./Database-and-Data-Management/Master-Data-Catalog/Product-Spare-Parts/Product-Spare-Parts.md "2J7")
 [产品 可配置物料](./Database-and-Data-Management/Master-Data-Catalog/Product-Configurable/Product-Configurable.md "2T7")
