@@ -1,0 +1,18 @@
+## 角色
+> SAP_BR_PRODN_PLNR
+> SAP_BR_PRODN_SUPERVISOR_DISC
+> SAP_BR_PRODN_OPTR_DISC
+> SAP_BR_WAREHOUSE_CLERK
+> SAP_BR_PRODN_ENG_DISC
+> SAP_BR_INVENTORY_MANAGER
+> SAP_BR_PRODN_SUPERVISOR_PROC
+> SAP_BR_PRODN_OPTR_PROC
+> SAP_BR_PRODN_ENG_PROC
+## App
+> Maintain PIRs (F3445).
+> Schedule MRP Runs (F1339)
+> Manage Work Center Capacity (F3289)
+> Check Material Coverage (F0251)
+> Maintain PIRs (F3445)
+> Schedule MRP Runs (F1339)
+> Check Material Coverage (F0251)

@@ -1,0 +1,6 @@
+## 角色
+> SAP_BR_CASH_SPECIALIST
+> SAP_BR_AR_ACCOUNTANT
+> SAP_BR_ADMINISTRATOR
+## App
+> Schedule Accounts Receivable Jobs (F2366)

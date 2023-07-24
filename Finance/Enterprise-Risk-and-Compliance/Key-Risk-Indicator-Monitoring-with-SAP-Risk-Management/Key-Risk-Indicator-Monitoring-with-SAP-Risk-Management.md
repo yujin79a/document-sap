@@ -1,0 +1,7 @@
+## 角色
+> SAP_GRC_RM_API_CENTRAL_RM
+> SAP_GRC_RM_API_RISK_MANAGER
+> SAP_BR_ADMINISTRATOR
+## App
+> /nnwbc
+> /nse38

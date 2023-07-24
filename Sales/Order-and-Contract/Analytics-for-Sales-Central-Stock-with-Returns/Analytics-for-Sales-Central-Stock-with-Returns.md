@@ -1,0 +1,5 @@
+## 角色
+> SAP_BR_SALES_MANAGER
+> SAP_BR_ANALYTICS_SPECIALIST
+## App
+> View Browser (F2170)

@@ -1,0 +1,1 @@
+SAP Analytics Cloud与SAP S/4HANA完全集成, 实现集成的财务规划和预算流程
