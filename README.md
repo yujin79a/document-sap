@@ -11,6 +11,8 @@
 
 [Mail](/Infrastructure/Mail-Transfer/Mail-Transfer.md)
 
+[短信/pager/SMS](/Infrastructure/Text-Transfer/Text-Transfer.md)
+
 [Message Control](/Infrastructure/Message-Control/Message-Control.md)
 
 [IDoc Interface/ALE](/Infrastructure/IDoc-Interface/IDoc-Interface.md)
@@ -22,6 +24,11 @@
 [Smart Forms](/Infrastructure/Smart-Forms/Smart-Forms.md)
 
 [BRFplus](/Infrastructure/Business-Rule-Framework-plus/Business-Rule-Framework-plus.md)
+
+# Developments
+[阿里云 RPC签名](/Development/aliyun-RPC/aliyun-RPC.md)
+
+[发送短信](/Development/Send-Sms/Send-Sms.md)
 
 # 流程管理和集成
 [业务事件处理](/Infrastructure/Process-Management-Integration/Business-Event-Handling/Business-Event-Handling.md "1NN")

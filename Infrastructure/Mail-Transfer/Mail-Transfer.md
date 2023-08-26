@@ -1,11 +1,6 @@
 # SMTP 配置
-参考 [SAP Help Portal](help.sap.com) 和 [455140](https://launchpad.support.sap.com/#/notes/455140)
+参考 [SAP Help Portal](https://help.sap.com/) 和 [455140](https://launchpad.support.sap.com/#/notes/455140)
 > SAPconnect (BC-SRV-COM)
-## 定义服务名称
-使用 SA14 定义服务名称, 只发送 Mail 则不需要配置
-> SMS Service
-
-![service-name](./img/service-name.jpg "定义服务名称")
 
 ## 配置文件参数
 使用 RZ10 设置参数, 序列号顺序编号, 重启后生效
